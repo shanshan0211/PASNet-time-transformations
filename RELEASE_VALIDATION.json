@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "scope": "clean checkout, compressed-data restoration, original input hashes, numerical tests and Section 5 saved-record audits",
+  "tests_run": 83,
+  "section_5_audits": 4,
+  "excluded_tests": [
+    "test_monitor_generalisation_artifacts.MonitorGeneralisationArtifactTests.test_recovered_multiseed_excludes_invalid_known_h"
+  ],
+  "additional_exclusions": [
+    "test_claim_coverage.py: three historical-manuscript documentation tests; those manuscripts are not distributed"
+  ],
+  "git_file_selection_verified": true,
+  "all_upload_files_under_50_MiB": true,
+  "retraining_performed": false,
+  "full_rollouts_rerun": false,
+  "public_release": false,
+  "license": "not selected by authors"
+}

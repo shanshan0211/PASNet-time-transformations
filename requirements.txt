@@ -1,0 +1,6 @@
+# Validated CPU review environment: Python 3.12.
+# Install the CPU torch wheel separately as described in README.md.
+numpy==2.3.5
+scipy==1.16.3
+matplotlib==3.10.7
+torch==2.8.0
