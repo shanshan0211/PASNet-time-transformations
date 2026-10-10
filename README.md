@@ -29,7 +29,7 @@ python -m pip install -r requirements.txt
 python reproduce.py
 ```
 
-The default command restores two losslessly compressed JSON files, verifies
+The default command restores the losslessly compressed, minimal evidence bundle, verifies
 SHA256 hashes, runs **83 numerical/integrity tests**, and executes the four
 Section 5 saved-record audits. It writes a report to
 `validation/VALIDATION_REPORT.json`. It does **not** retrain models or rerun
@@ -42,11 +42,17 @@ python reproduce.py --verify-only
 python reproduce.py --restore-only
 ```
 
-`--verify-only` checks packaged inputs without extraction. `--restore-only`
-extracts and verifies the raw records without testing. Large records are
-stored as `results/expAC11/raw_results.json.gz` and
-`results/expAC14/raw_results.json.gz`; the restored JSON files are ignored by
-Git. Raw bytes, values and historical hashes are preserved.
+`--verify-only` checks evidence-part hashes and packaged source files without
+extraction. `--restore-only` restores the original `results/` paths and verifies
+every result hash without testing. Evidence is stored as ordered parts under
+`data/`; `reproduce.py` joins and restores them automatically. Keep every part.
+Each part is below 20 MiB, so GitHub's browser upload can handle it. Restored
+`results/` files are ignored by Git. The archive preserves original input bytes.
+
+The minimal selection omits training-resume snapshots, already-merged AC19
+shards, short trial/smoke outputs and unused duplicate plots. Final checkpoints,
+complete rollout records, current conditioning results and required correction
+history remain. The same 83 tests and four saved-record audits pass unchanged.
 
 ## Layout
 
@@ -55,10 +61,10 @@ Git. Raw bytes, values and historical hashes are preserved.
 | `src/` | Hamiltonian systems, PASNet, midpoint solvers and diagnostics |
 | `experiments/` | Numbered corrected experiment drivers, training, protocol registration and analysis |
 | `tests/` | Numerical correctness and saved-artifact integrity tests |
-| `results/` | Protocols, checkpoints, raw records, summaries and correction history |
+| `data/` | Lossless evidence parts, automatically restored to `results/` |
 | `new/` | Returned-residual review, Section 5 audits, current scientific figure generators and manuscript/SI source snapshots |
 | `theory/` | Corrected auxiliary analysis notes |
-| `INPUT_MANIFEST.json` | Original input hashes and compression mapping |
+| `INPUT_MANIFEST.json` | Original input hashes, evidence-part hashes and selection exclusions |
 | `docs/EXPERIMENT_MAP.md` | Current result sources and superseded-artifact warnings |
 
 Original paths and bytes are retained because frozen protocols hash-link code

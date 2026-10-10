@@ -1,14 +1,5 @@
 {
-  "status": "local unpublished GitHub candidate; license not selected",
-  "selection": "current numerical study plus frozen dependencies and correction history",
-  "excluded": [
-    "historical manuscript sources",
-    "cover letters",
-    "private revision logs",
-    "downloaded literature",
-    "virtual environments and caches",
-    "unrelated historical experiment families"
-  ],
+  "status": "local minimal repository candidate; license not selected",
   "files": [
     {
       "path": "experiments/analyze_expAC10.py",
@@ -656,9 +647,6 @@
       "path": "results/expAC11/raw_results.json",
       "bytes": 282740308,
       "sha256": "b2fbde6c3fb1e67cc7356d71e3b38f5d7776821d46aeebd3cd63c4c369e5f0a3",
-      "stored_path": "results/expAC11/raw_results.json.gz",
-      "stored_bytes": 45228535,
-      "stored_sha256": "2b22e066d9314b30e98748d5d8e74954afdabae0d7400f8f43b1ddea04cf5f75",
       "mutable_report": false
     },
     {
@@ -812,141 +800,9 @@
       "mutable_report": false
     },
     {
-      "path": "results/expAC12/training_progress_exact_invariant_seed8101.pt",
-      "bytes": 158901,
-      "sha256": "76c798c61dc9c25cc47d2bbccbfc9f640ae7a924c3fcde3396871867a6ed8334",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_exact_invariant_seed8102.pt",
-      "bytes": 158901,
-      "sha256": "76b733d2d060ab8036106f2aa9bf818754dab663701df57578887370068f1706",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_exact_invariant_seed8103.pt",
-      "bytes": 158901,
-      "sha256": "1f7e25e5deb5d57efda103938988119ee858314d3223f4949da8c59eb7da1dd9",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_exact_invariant_seed8104.pt",
-      "bytes": 158901,
-      "sha256": "affb583c17cd8383f616b0d547f68e8d6a8bdcfd28eebee89fa6582bcc8050cd",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_exact_invariant_seed8105.pt",
-      "bytes": 158901,
-      "sha256": "f8884fbabb626c09720ed81f9820f0b3da0ed275046f70ca5f1c45ea07974f24",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_exact_raw_seed8101.pt",
-      "bytes": 156637,
-      "sha256": "b308fed8a8ce29a2b66f60451381f328f32a3095a36764d651e0dbe90ccae555",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_exact_raw_seed8102.pt",
-      "bytes": 156637,
-      "sha256": "3c30375ded62483a7b5f23cdabe8a9020c3f53eef8d2ebdf10adc32ed71b4e68",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_exact_raw_seed8103.pt",
-      "bytes": 156637,
-      "sha256": "01c7f93f52f98928104dd584bb1d9c7e240686b877b4167667a54a9abb4a8bab",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_exact_raw_seed8104.pt",
-      "bytes": 156637,
-      "sha256": "92d4b09ac8183759b18ac3f813ad15e4302902590226858a1f6e8f306e24f274",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_exact_raw_seed8105.pt",
-      "bytes": 156637,
-      "sha256": "ff81fd6fd8f120bb69a31474392e2c1486da13057ab5b49b78aa6d731a3c68d6",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_learned_invariant_seed8101.pt",
-      "bytes": 158973,
-      "sha256": "f7210948d2490124250ae062b73eec3cb1f1f00575d1e95761c76b039f6be369",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_learned_invariant_seed8102.pt",
-      "bytes": 158973,
-      "sha256": "bffc7e5c9d0bb920882ae107acfc14870e70428cc2aacef578fb5bc0849f22c3",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_learned_invariant_seed8103.pt",
-      "bytes": 158973,
-      "sha256": "16aceaaa7eacd47e9d3f3ffb976ab2b0d4ca41c578d7806bb49be916afdc895d",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_learned_invariant_seed8104.pt",
-      "bytes": 158973,
-      "sha256": "0be52f7507aa55f11b7ce8bce31c9e813d57db8a0d0fe649e8ea7298b9bc707b",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_learned_invariant_seed8105.pt",
-      "bytes": 158973,
-      "sha256": "5236dbd7daac7f857ae91a1987bd1908736995e702d2210e0ddcee993da7238e",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_learned_raw_seed8101.pt",
-      "bytes": 156709,
-      "sha256": "8cb4be4816b4b27c49025f8819927af72f087fd134738bc1bc526c89809c6aed",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_learned_raw_seed8102.pt",
-      "bytes": 156709,
-      "sha256": "d1de67b8f23c6ed8cf64c51b104ac7b81a649a8b39551deee072944322ec8bdc",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_learned_raw_seed8103.pt",
-      "bytes": 156709,
-      "sha256": "beb388cfbea7974ceb6f801f87e0577d13f092eaee67ebbe5d7e5c371f56256f",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_learned_raw_seed8104.pt",
-      "bytes": 156709,
-      "sha256": "d2531096ab9f78d0f75bbcc387869dd0b83442de7d1b0e157b98671c9f1926c9",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC12/training_progress_learned_raw_seed8105.pt",
-      "bytes": 156709,
-      "sha256": "746dd01bd26d03f3925d3ec1b2aceba5af6d8a40f283d8b62535aad599a73a82",
-      "mutable_report": false
-    },
-    {
       "path": "results/expAC13/analysis.json",
       "bytes": 12725,
       "sha256": "5854ca51879e22c14e55f7c9765e36374d558a8702d47118ab040219216d0a07",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC13/fig_cross_hamiltonian_scale.pdf",
-      "bytes": 21910,
-      "sha256": "5f9332431bd1b28f15a2e879c612f9aa8805f8a3951b356d53255c232860789a",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC13/fig_cross_hamiltonian_scale.png",
-      "bytes": 121071,
-      "sha256": "3dd56f79737db00d8105c20fe1219507a3ea558b157d892f8211525151de5c35",
       "mutable_report": false
     },
     {
@@ -1028,78 +884,6 @@
       "mutable_report": false
     },
     {
-      "path": "results/expAC13/progress_duffing_raw_seed9101.pt",
-      "bytes": 152161,
-      "sha256": "51df17ca66f5b88495dcb85ad22d71d6427442b40ac1b3684893e1ffc6084f5d",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC13/progress_duffing_raw_seed9102.pt",
-      "bytes": 152161,
-      "sha256": "defda04da16be07a88568cd132e878e74acda013de099fc83e729bcad1b165f1",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC13/progress_duffing_raw_seed9103.pt",
-      "bytes": 152161,
-      "sha256": "088f0e69af341bd66e8776508e63845a0965714040b13a77d312998627aaa962",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC13/progress_duffing_reversal_even_seed9101.pt",
-      "bytes": 152585,
-      "sha256": "3d7ea2ff27b9e29cff907b8b53c9a374f29ee2d1ca6f797c3b23bdff378efb3b",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC13/progress_duffing_reversal_even_seed9102.pt",
-      "bytes": 152585,
-      "sha256": "c82f3dd2deb8ac1312d07870c0615bb8637d506b3b9350d7377e8a22fa8f1d0c",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC13/progress_duffing_reversal_even_seed9103.pt",
-      "bytes": 152585,
-      "sha256": "4716113f241696ec329a97e5b3248a1bf2a3bb65b07222dc16f0f07c293c4ff6",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC13/progress_modal_raw_seed9101.pt",
-      "bytes": 213529,
-      "sha256": "5ef546d3add982cf1af295fe68883b56a32da90b7a289917d51be1a9f29f3681",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC13/progress_modal_raw_seed9102.pt",
-      "bytes": 213529,
-      "sha256": "d7d9843bfd0558dfe52f3169256737df8cb0e631f2b713e954a940c7a2032aba",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC13/progress_modal_raw_seed9103.pt",
-      "bytes": 213529,
-      "sha256": "d8537f74f4b171e969ee7ca2e721cacd557ff2d8583f8abb9627170847c69ed9",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC13/progress_modal_reversal_even_seed9101.pt",
-      "bytes": 213953,
-      "sha256": "3c5a97597f4361debc99db1ad2a97d9ddcceca2ad7ff63aa1e0d607f4e89a366",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC13/progress_modal_reversal_even_seed9102.pt",
-      "bytes": 213953,
-      "sha256": "64caf113dfd655e81f9ff0484d74e83889029e9cb0b869d2e4b61a5301fd2879",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC13/progress_modal_reversal_even_seed9103.pt",
-      "bytes": 213953,
-      "sha256": "2c1eb5599491349dd8600f8920c65c541d2731674fb91ae95622b8755e2fadb1",
-      "mutable_report": false
-    },
-    {
       "path": "results/expAC13/raw_results.json",
       "bytes": 205561,
       "sha256": "b6a8b03d7bde4c93167ab96b1c860545b2a0ffdfbd43708c787881d73e63ec10",
@@ -1145,9 +929,6 @@
       "path": "results/expAC14/raw_results.json",
       "bytes": 92887021,
       "sha256": "8b31be1e4e099a5d8adcde0faf8f9e472a80b2abde8ee9247e7dd75443786344",
-      "stored_path": "results/expAC14/raw_results.json.gz",
-      "stored_bytes": 13150431,
-      "stored_sha256": "786cbf5221f278df857ee02c2e4f18ae60454a6408a0d051df668f18f930215d",
       "mutable_report": false
     },
     {
@@ -1169,18 +950,6 @@
       "mutable_report": false
     },
     {
-      "path": "results/expAC15/smoke_analysis.json",
-      "bytes": 13097,
-      "sha256": "5a3e9727ee980033abffc4a252ae1cd719f1c6951d26c496a4542dc43832e60e",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC15/smoke_results.json",
-      "bytes": 9542,
-      "sha256": "c351959af98d55f7b4e954d5128cba3275af9afd827df7ea1ff0398eba055d91",
-      "mutable_report": false
-    },
-    {
       "path": "results/expAC15/summary.json",
       "bytes": 7543,
       "sha256": "b447bec11d0e873ab63ee4273b89d960798aab93df84697d6d634769da998a1e",
@@ -1190,18 +959,6 @@
       "path": "results/expAC16/analysis.json",
       "bytes": 12317,
       "sha256": "946833577fc46784e239733dd2359f5254992d94fa566fa82ec7c5a1efaf6e7f",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC16/fig_reference_convergence.pdf",
-      "bytes": 20517,
-      "sha256": "f12805340e4545178f235010b00d3e73fc3fe9c109beb392f5ccf767ab1520d6",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC16/fig_reference_convergence.png",
-      "bytes": 127345,
-      "sha256": "edd8bb0d4f81ac9324630efdeaff307fff65d1719dca810727761d89f82645f8",
       "mutable_report": false
     },
     {
@@ -1355,78 +1112,6 @@
       "mutable_report": false
     },
     {
-      "path": "results/expAC19/phase_b_shards/shard_00/intervention.json",
-      "bytes": 27048,
-      "sha256": "06cf92c60934bba8b215468eb9361a6affa347eb498c080ad1c4df79cb6b04fe",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC19/phase_b_shards/shard_01/intervention.json",
-      "bytes": 27177,
-      "sha256": "f3e1fcb8538057e24e7f9dd8a3785fe511ebf95a804477268b94c67ffdb26e68",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC19/phase_b_shards/shard_02/intervention.json",
-      "bytes": 27665,
-      "sha256": "b57cc0b06af7d088b975810b4926d8927ac45c64f38bef6a79250783c2b648e0",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC19/phase_b_shards/shard_03/intervention.json",
-      "bytes": 27029,
-      "sha256": "7643d032b07a6683a8372f982793e34e9951bd3e4f43dcfe8fcf8eb08c7f6498",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC19/phase_b_shards/shard_04/intervention.json",
-      "bytes": 26958,
-      "sha256": "372c397cefdd4f5f093a7a80cf8540db3c064bf011c3ecb5fc94dfb3ec251e60",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC19/phase_b_shards/shard_05/intervention.json",
-      "bytes": 26879,
-      "sha256": "c6f5258425881ee4becca2244f5c2e5f68ba3737b97144a7c91280a422375466",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC19/phase_b_shards/shard_06/intervention.json",
-      "bytes": 27290,
-      "sha256": "13b42f0c24a96343850abdd607cf6c7b62a8d469ffbc87a36334e27c9b72461b",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC19/phase_b_shards/shard_07/intervention.json",
-      "bytes": 27058,
-      "sha256": "765baac77b98911affeafd93a26b87e42d96b64484844006a1b11992dc269158",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC19/phase_b_shards/shard_08/intervention.json",
-      "bytes": 27144,
-      "sha256": "e1d01b8e1cff62f45d2b032eecb60ab915192afaea21a026da7a8eb8cd6960a9",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC19/phase_b_shards/shard_09/intervention.json",
-      "bytes": 27208,
-      "sha256": "54b3634e952be532e7f2adeab2a9fc9e3f6a7c76f6c2c3fe2f384210736eacc0",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC19/phase_b_shards/shard_10/intervention.json",
-      "bytes": 27394,
-      "sha256": "ea21f5ecb71972bd5f795b68c51b0ac1dd5354cb7baa08955c0980227dd489ed",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC19/phase_b_shards/shard_11/intervention.json",
-      "bytes": 27083,
-      "sha256": "e23240064d825134809d43332cbf1a524ed2f27ab2ae9633d53406273f6f4870",
-      "mutable_report": false
-    },
-    {
       "path": "results/expAC19/preregistration.json",
       "bytes": 10135,
       "sha256": "737b049fe77161460b0ab64652fb67ab828f3b96b19ad14ef3f4b53da9f4e264",
@@ -1448,12 +1133,6 @@
       "path": "results/expAC2/corrected_100period_analysis.json",
       "bytes": 9265,
       "sha256": "611f3789504e719140d83dba3068153c2f48ad806f6526cea6b2a0ee73ecbae2",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC2/corrected_smoke.json",
-      "bytes": 4127,
-      "sha256": "7c2fa3f40eaed963db6347f7e1d4296cfd11f827e891c94f9110c6fc4738c1f3",
       "mutable_report": false
     },
     {
@@ -2075,66 +1754,6 @@
       "mutable_report": false
     },
     {
-      "path": "results/expAC9/training_progress_invariant_seed7101.pt",
-      "bytes": 158621,
-      "sha256": "b67cd3dc22bc623702c49fa49cacd30569c2bd0397eefd16cf850e6a774571af",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC9/training_progress_invariant_seed7102.pt",
-      "bytes": 158621,
-      "sha256": "ea27c51c3784ccad85a45c02acd55095a590fc11377eee0269860e524f48c3d0",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC9/training_progress_invariant_seed7103.pt",
-      "bytes": 158621,
-      "sha256": "fa56f300ad6edcde182885dd8aefa03f8b9abab2c58ec21888dda9142757a5c5",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC9/training_progress_invariant_seed7104.pt",
-      "bytes": 158621,
-      "sha256": "cd3f5e55db09d516457f058ba283dd69010be18f31e9f3bfe6d45f9a7a52fa48",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC9/training_progress_invariant_seed7105.pt",
-      "bytes": 158621,
-      "sha256": "46805834781ddaae30ca6e3c1ddf1f875691686b7dc1b2501b5ab62fce2f5d54",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC9/training_progress_raw_seed7101.pt",
-      "bytes": 156293,
-      "sha256": "f25dbcba6f39458bc0bd6c8713db8f7412c7e659e2df4ceea6ed1e0a8482f5c0",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC9/training_progress_raw_seed7102.pt",
-      "bytes": 156293,
-      "sha256": "6951a02a9a12cf0676ee888db6c241c5af0625a6abae3e1bc3ee46ba2560b0b2",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC9/training_progress_raw_seed7103.pt",
-      "bytes": 156293,
-      "sha256": "c3b86bd100a5997c5817425434528edf0d31c4fac3974bc0b8c7b8d9c0a452ed",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC9/training_progress_raw_seed7104.pt",
-      "bytes": 156293,
-      "sha256": "c9cb7c18d5e73331deeb110566b90929c1a1e05daf4f2ad48b597e654f9c6134",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC9/training_progress_raw_seed7105.pt",
-      "bytes": 156293,
-      "sha256": "3c89fbde9262855ffb57cc1799e5104e9c6a054375655e80454159961b2f1e1b",
-      "mutable_report": false
-    },
-    {
       "path": "results/expE2/pasnet_weights.pt",
       "bytes": 159033,
       "sha256": "2c70351bcabc60f0c0b445921bfd7f03d11b2ae3fcf9658f4caa27c812d2fe22",
@@ -2324,30 +1943,6 @@
       "path": "results/returned_endpoint_review/scalar_parity.json",
       "bytes": 1561,
       "sha256": "8607d9a505e666278a687b6c00c04a18c909307cf14757025ff3e7fe2b8f5e98",
-      "mutable_report": false
-    },
-    {
-      "path": "results/returned_endpoint_review/smoke/AC19_raw_7101.json",
-      "bytes": 39460,
-      "sha256": "cbabb71340c251ffb059aac27b6870a0cb82b4188e420597adde0624c25fcf19",
-      "mutable_report": false
-    },
-    {
-      "path": "results/returned_endpoint_review/smoke/AC20_invariant_e099_7101.json",
-      "bytes": 101755,
-      "sha256": "528d1993644e10a52e1bd48e752fdbb62ee7d70494988dff012182f0bb4070e3",
-      "mutable_report": false
-    },
-    {
-      "path": "results/returned_endpoint_review/smoke/AC20_sundman_e099_7101.json",
-      "bytes": 101418,
-      "sha256": "e756c7bda12bcabcde960b6c1c68f8971bf3fd89b50c060a0d798f9bbfb1cd0a",
-      "mutable_report": false
-    },
-    {
-      "path": "results/returned_endpoint_review/smoke/AC20_sundman_e09_7101.json",
-      "bytes": 101284,
-      "sha256": "a65e4e506328932eb52155c8fd3cd613716b0c03518a377b68c3350beda3f3fd",
       "mutable_report": false
     },
     {
@@ -2711,24 +2306,102 @@
       "mutable_report": false
     }
   ],
-  "compressed_data": [
-    {
-      "path": "results/expAC11/raw_results.json",
-      "bytes": 282740308,
-      "sha256": "b2fbde6c3fb1e67cc7356d71e3b38f5d7776821d46aeebd3cd63c4c369e5f0a3",
-      "stored_path": "results/expAC11/raw_results.json.gz",
-      "stored_bytes": 45228535,
-      "stored_sha256": "2b22e066d9314b30e98748d5d8e74954afdabae0d7400f8f43b1ddea04cf5f75",
-      "mutable_report": false
-    },
-    {
-      "path": "results/expAC14/raw_results.json",
-      "bytes": 92887021,
-      "sha256": "8b31be1e4e099a5d8adcde0faf8f9e472a80b2abde8ee9247e7dd75443786344",
-      "stored_path": "results/expAC14/raw_results.json.gz",
-      "stored_bytes": 13150431,
-      "stored_sha256": "786cbf5221f278df857ee02c2e4f18ae60454a6408a0d051df668f18f930215d",
-      "mutable_report": false
-    }
-  ]
+  "evidence_bundle": {
+    "format": "concatenated ZIP parts in listed order",
+    "sha256": "c2032d246dd75d72ba6dfcd09db7e45c660a6341882af836c6bd5240a152df86",
+    "bytes": 67110964,
+    "parts": [
+      {
+        "path": "data/evidence.zip.part01",
+        "bytes": 19922944,
+        "sha256": "4bd5038ad7a9e52c82f0410a175442c6dd1554f1a45ef649a5e4993c1bd2c958"
+      },
+      {
+        "path": "data/evidence.zip.part02",
+        "bytes": 19922944,
+        "sha256": "146c8d9aba85ddcdaffb697531e8cbca5e48b9ebcdbaadd403b02d843550d30c"
+      },
+      {
+        "path": "data/evidence.zip.part03",
+        "bytes": 19922944,
+        "sha256": "b06930b7f932c4969a201fdb98c6fc700a3458d202a160883abf6a4eefdd8039"
+      },
+      {
+        "path": "data/evidence.zip.part04",
+        "bytes": 7342132,
+        "sha256": "d453f6348b4ea43c4c0c9efc3a3bf71e3d22dc452681015410bbfa66aa76d006"
+      }
+    ]
+  },
+  "selection": {
+    "removed_results": [
+      "results/expAC12/training_progress_exact_invariant_seed8101.pt",
+      "results/expAC12/training_progress_exact_invariant_seed8102.pt",
+      "results/expAC12/training_progress_exact_invariant_seed8103.pt",
+      "results/expAC12/training_progress_exact_invariant_seed8104.pt",
+      "results/expAC12/training_progress_exact_invariant_seed8105.pt",
+      "results/expAC12/training_progress_exact_raw_seed8101.pt",
+      "results/expAC12/training_progress_exact_raw_seed8102.pt",
+      "results/expAC12/training_progress_exact_raw_seed8103.pt",
+      "results/expAC12/training_progress_exact_raw_seed8104.pt",
+      "results/expAC12/training_progress_exact_raw_seed8105.pt",
+      "results/expAC12/training_progress_learned_invariant_seed8101.pt",
+      "results/expAC12/training_progress_learned_invariant_seed8102.pt",
+      "results/expAC12/training_progress_learned_invariant_seed8103.pt",
+      "results/expAC12/training_progress_learned_invariant_seed8104.pt",
+      "results/expAC12/training_progress_learned_invariant_seed8105.pt",
+      "results/expAC12/training_progress_learned_raw_seed8101.pt",
+      "results/expAC12/training_progress_learned_raw_seed8102.pt",
+      "results/expAC12/training_progress_learned_raw_seed8103.pt",
+      "results/expAC12/training_progress_learned_raw_seed8104.pt",
+      "results/expAC12/training_progress_learned_raw_seed8105.pt",
+      "results/expAC13/fig_cross_hamiltonian_scale.pdf",
+      "results/expAC13/fig_cross_hamiltonian_scale.png",
+      "results/expAC13/progress_duffing_raw_seed9101.pt",
+      "results/expAC13/progress_duffing_raw_seed9102.pt",
+      "results/expAC13/progress_duffing_raw_seed9103.pt",
+      "results/expAC13/progress_duffing_reversal_even_seed9101.pt",
+      "results/expAC13/progress_duffing_reversal_even_seed9102.pt",
+      "results/expAC13/progress_duffing_reversal_even_seed9103.pt",
+      "results/expAC13/progress_modal_raw_seed9101.pt",
+      "results/expAC13/progress_modal_raw_seed9102.pt",
+      "results/expAC13/progress_modal_raw_seed9103.pt",
+      "results/expAC13/progress_modal_reversal_even_seed9101.pt",
+      "results/expAC13/progress_modal_reversal_even_seed9102.pt",
+      "results/expAC13/progress_modal_reversal_even_seed9103.pt",
+      "results/expAC15/smoke_analysis.json",
+      "results/expAC15/smoke_results.json",
+      "results/expAC16/fig_reference_convergence.pdf",
+      "results/expAC16/fig_reference_convergence.png",
+      "results/expAC19/phase_b_shards/shard_00/intervention.json",
+      "results/expAC19/phase_b_shards/shard_01/intervention.json",
+      "results/expAC19/phase_b_shards/shard_02/intervention.json",
+      "results/expAC19/phase_b_shards/shard_03/intervention.json",
+      "results/expAC19/phase_b_shards/shard_04/intervention.json",
+      "results/expAC19/phase_b_shards/shard_05/intervention.json",
+      "results/expAC19/phase_b_shards/shard_06/intervention.json",
+      "results/expAC19/phase_b_shards/shard_07/intervention.json",
+      "results/expAC19/phase_b_shards/shard_08/intervention.json",
+      "results/expAC19/phase_b_shards/shard_09/intervention.json",
+      "results/expAC19/phase_b_shards/shard_10/intervention.json",
+      "results/expAC19/phase_b_shards/shard_11/intervention.json",
+      "results/expAC2/corrected_smoke.json",
+      "results/expAC9/training_progress_invariant_seed7101.pt",
+      "results/expAC9/training_progress_invariant_seed7102.pt",
+      "results/expAC9/training_progress_invariant_seed7103.pt",
+      "results/expAC9/training_progress_invariant_seed7104.pt",
+      "results/expAC9/training_progress_invariant_seed7105.pt",
+      "results/expAC9/training_progress_raw_seed7101.pt",
+      "results/expAC9/training_progress_raw_seed7102.pt",
+      "results/expAC9/training_progress_raw_seed7103.pt",
+      "results/expAC9/training_progress_raw_seed7104.pt",
+      "results/expAC9/training_progress_raw_seed7105.pt",
+      "results/returned_endpoint_review/smoke/AC19_raw_7101.json",
+      "results/returned_endpoint_review/smoke/AC20_invariant_e099_7101.json",
+      "results/returned_endpoint_review/smoke/AC20_sundman_e099_7101.json",
+      "results/returned_endpoint_review/smoke/AC20_sundman_e09_7101.json"
+    ],
+    "retained_result_count": 254,
+    "reason": "omit auxiliary snapshots, merged shards, trial outputs and unused duplicate plots; retain unchanged numerical test inputs"
+  }
 }

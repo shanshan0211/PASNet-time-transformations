@@ -1,18 +1,42 @@
 {
   "passed": true,
-  "scope": "clean checkout, compressed-data restoration, original input hashes, numerical tests and Section 5 saved-record audits",
   "tests_run": 83,
   "section_5_audits": 4,
+  "original_results": 319,
+  "retained_results": 254,
+  "removed_auxiliary_files": 65,
+  "evidence_parts": [
+    {
+      "path": "data/evidence.zip.part01",
+      "bytes": 19922944,
+      "sha256": "4bd5038ad7a9e52c82f0410a175442c6dd1554f1a45ef649a5e4993c1bd2c958"
+    },
+    {
+      "path": "data/evidence.zip.part02",
+      "bytes": 19922944,
+      "sha256": "146c8d9aba85ddcdaffb697531e8cbca5e48b9ebcdbaadd403b02d843550d30c"
+    },
+    {
+      "path": "data/evidence.zip.part03",
+      "bytes": 19922944,
+      "sha256": "b06930b7f932c4969a201fdb98c6fc700a3458d202a160883abf6a4eefdd8039"
+    },
+    {
+      "path": "data/evidence.zip.part04",
+      "bytes": 7342132,
+      "sha256": "d453f6348b4ea43c4c0c9efc3a3bf71e3d22dc452681015410bbfa66aa76d006"
+    }
+  ],
+  "all_parts_under_20_MiB": true,
+  "scientific_inputs_byte_identical": true,
+  "figure_paths_present": true,
+  "retraining_performed": false,
+  "public_release": false,
+  "license": "not selected",
   "excluded_tests": [
     "test_monitor_generalisation_artifacts.MonitorGeneralisationArtifactTests.test_recovered_multiseed_excludes_invalid_known_h"
   ],
   "additional_exclusions": [
     "test_claim_coverage.py: three historical-manuscript documentation tests; those manuscripts are not distributed"
-  ],
-  "git_file_selection_verified": true,
-  "all_upload_files_under_50_MiB": true,
-  "retraining_performed": false,
-  "full_rollouts_rerun": false,
-  "public_release": false,
-  "license": "not selected by authors"
+  ]
 }
