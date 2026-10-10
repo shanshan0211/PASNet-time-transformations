@@ -1,0 +1,397 @@
+{
+  "scope": "partial claim trace for subsection 5.1 only",
+  "tex_source": "paper_g2_jcp_new.tex",
+  "experiments_rerun": false,
+  "figure": "existing Matplotlib artifact inspected against saved data; not regenerated",
+  "figure_source": "experiments/analyze_expAC9.py:make_figure",
+  "source_sha256": {
+    "results/expAC9/raw_results.json": "bdb87fc09c6d87e07cadbdf54960307ed3c73da66bdb1497de88d48e4d376a9e",
+    "results/expAC9/training.json": "a043fcc7a72c8cc4ae657a4d998508f48398635acd0304f8c05c04309dc95994",
+    "results/expAC9/summary.json": "9c80bef04df11a9201da1a03f2869936f022e75930a16bbf4380bfcd1772bd30",
+    "experiments/analyze_expAC9.py": "3fcbfc0fedd41a5e90f0a967de5ba329d138c5dc9620374c3f485c8e8144c8f3",
+    "results/expAC9/analysis.json": "e545e2056c5150b0f0cfd1825bfcfda10324355be841b52eb08be9672fbadcac",
+    "results/expAC15/analysis.json": "8633b7a748104099097a4abbedf4a1fd6ecc25005b4e4c88c191e716232f2837",
+    "fig_checkpoint_generalisation.pdf": "bbb5ec25420539e4128187f3b32bd392a67a122a4057a675c6de02caf2432ff7",
+    "fig_checkpoint_generalisation.png": "9fcca0e67ffcb04c85292aefbdeacc1ba521878e5c38c5220b1ae5199b220ee2",
+    "new/paper_g2_jcp_new.tex": "b7d5b73eb464c60c16f68daa3d492357b53dc1b9c24efdd42d9ef4f935ae88a7",
+    "new/audit_section_5_1.py": "9aa2ff4102c40ec862ab679e0f7e5a72e7b7cac156d450411ad80e961381a394"
+  },
+  "claims": [
+    {
+      "id": "R1-overall",
+      "tex_anchor": "sec:kepler-reliability",
+      "value": {
+        "raw": {
+          "complete": 228,
+          "registered": 360
+        },
+        "invariant": {
+          "complete": 240,
+          "registered": 360
+        },
+        "manual_r": {
+          "complete": 72,
+          "registered": 72
+        }
+      },
+      "verification": "recounted from saved raw records"
+    },
+    {
+      "id": "R1-eccentricity",
+      "tex_anchor": "fig:kepler-reliability",
+      "value": {
+        "raw": {
+          "0.7": {
+            "complete": 120,
+            "registered": 120
+          },
+          "0.9": {
+            "complete": 108,
+            "registered": 120
+          },
+          "0.99": {
+            "complete": 0,
+            "registered": 120
+          }
+        },
+        "invariant": {
+          "0.7": {
+            "complete": 120,
+            "registered": 120
+          },
+          "0.9": {
+            "complete": 120,
+            "registered": 120
+          },
+          "0.99": {
+            "complete": 0,
+            "registered": 120
+          }
+        },
+        "manual_r": {
+          "0.7": {
+            "complete": 24,
+            "registered": 24
+          },
+          "0.9": {
+            "complete": 24,
+            "registered": 24
+          },
+          "0.99": {
+            "complete": 24,
+            "registered": 24
+          }
+        }
+      },
+      "verification": "recounted from saved raw records"
+    },
+    {
+      "id": "R1-checkpoints",
+      "value": {
+        "raw": {
+          "7101": {
+            "complete": 44,
+            "registered": 72
+          },
+          "7102": {
+            "complete": 47,
+            "registered": 72
+          },
+          "7103": {
+            "complete": 45,
+            "registered": 72
+          },
+          "7104": {
+            "complete": 44,
+            "registered": 72
+          },
+          "7105": {
+            "complete": 48,
+            "registered": 72
+          }
+        },
+        "invariant": {
+          "7101": {
+            "complete": 48,
+            "registered": 72
+          },
+          "7102": {
+            "complete": 48,
+            "registered": 72
+          },
+          "7103": {
+            "complete": 48,
+            "registered": 72
+          },
+          "7104": {
+            "complete": 48,
+            "registered": 72
+          },
+          "7105": {
+            "complete": 48,
+            "registered": 72
+          }
+        }
+      },
+      "verification": "recounted from saved raw records"
+    },
+    {
+      "id": "R1-grid",
+      "value": [
+        {
+          "architecture": "raw",
+          "a": 0.75,
+          "e": 0.7,
+          "complete": 40,
+          "registered": 40
+        },
+        {
+          "architecture": "raw",
+          "a": 0.75,
+          "e": 0.9,
+          "complete": 28,
+          "registered": 40
+        },
+        {
+          "architecture": "raw",
+          "a": 0.75,
+          "e": 0.99,
+          "complete": 0,
+          "registered": 40
+        },
+        {
+          "architecture": "raw",
+          "a": 1.0,
+          "e": 0.7,
+          "complete": 40,
+          "registered": 40
+        },
+        {
+          "architecture": "raw",
+          "a": 1.0,
+          "e": 0.9,
+          "complete": 40,
+          "registered": 40
+        },
+        {
+          "architecture": "raw",
+          "a": 1.0,
+          "e": 0.99,
+          "complete": 0,
+          "registered": 40
+        },
+        {
+          "architecture": "raw",
+          "a": 1.25,
+          "e": 0.7,
+          "complete": 40,
+          "registered": 40
+        },
+        {
+          "architecture": "raw",
+          "a": 1.25,
+          "e": 0.9,
+          "complete": 40,
+          "registered": 40
+        },
+        {
+          "architecture": "raw",
+          "a": 1.25,
+          "e": 0.99,
+          "complete": 0,
+          "registered": 40
+        },
+        {
+          "architecture": "invariant",
+          "a": 0.75,
+          "e": 0.7,
+          "complete": 40,
+          "registered": 40
+        },
+        {
+          "architecture": "invariant",
+          "a": 0.75,
+          "e": 0.9,
+          "complete": 40,
+          "registered": 40
+        },
+        {
+          "architecture": "invariant",
+          "a": 0.75,
+          "e": 0.99,
+          "complete": 0,
+          "registered": 40
+        },
+        {
+          "architecture": "invariant",
+          "a": 1.0,
+          "e": 0.7,
+          "complete": 40,
+          "registered": 40
+        },
+        {
+          "architecture": "invariant",
+          "a": 1.0,
+          "e": 0.9,
+          "complete": 40,
+          "registered": 40
+        },
+        {
+          "architecture": "invariant",
+          "a": 1.0,
+          "e": 0.99,
+          "complete": 0,
+          "registered": 40
+        },
+        {
+          "architecture": "invariant",
+          "a": 1.25,
+          "e": 0.7,
+          "complete": 40,
+          "registered": 40
+        },
+        {
+          "architecture": "invariant",
+          "a": 1.25,
+          "e": 0.9,
+          "complete": 40,
+          "registered": 40
+        },
+        {
+          "architecture": "invariant",
+          "a": 1.25,
+          "e": 0.99,
+          "complete": 0,
+          "registered": 40
+        },
+        {
+          "architecture": "manual_r",
+          "a": 0.75,
+          "e": 0.7,
+          "complete": 8,
+          "registered": 8
+        },
+        {
+          "architecture": "manual_r",
+          "a": 0.75,
+          "e": 0.9,
+          "complete": 8,
+          "registered": 8
+        },
+        {
+          "architecture": "manual_r",
+          "a": 0.75,
+          "e": 0.99,
+          "complete": 8,
+          "registered": 8
+        },
+        {
+          "architecture": "manual_r",
+          "a": 1.0,
+          "e": 0.7,
+          "complete": 8,
+          "registered": 8
+        },
+        {
+          "architecture": "manual_r",
+          "a": 1.0,
+          "e": 0.9,
+          "complete": 8,
+          "registered": 8
+        },
+        {
+          "architecture": "manual_r",
+          "a": 1.0,
+          "e": 0.99,
+          "complete": 8,
+          "registered": 8
+        },
+        {
+          "architecture": "manual_r",
+          "a": 1.25,
+          "e": 0.7,
+          "complete": 8,
+          "registered": 8
+        },
+        {
+          "architecture": "manual_r",
+          "a": 1.25,
+          "e": 0.9,
+          "complete": 8,
+          "registered": 8
+        },
+        {
+          "architecture": "manual_r",
+          "a": 1.25,
+          "e": 0.99,
+          "complete": 8,
+          "registered": 8
+        }
+      ],
+      "verification": "recounted from saved raw records"
+    },
+    {
+      "id": "R1-symmetry",
+      "value": {
+        "raw": {
+          "groups": 90,
+          "uniform_completion": 83
+        },
+        "invariant": {
+          "groups": 90,
+          "uniform_completion": 90
+        },
+        "manual_r": {
+          "groups": 18,
+          "uniform_completion": 18
+        }
+      },
+      "verification": "regrouped saved raw records"
+    },
+    {
+      "id": "R1-failure-status",
+      "value": {
+        "raw": {
+          "solver_failure": 132
+        },
+        "invariant": {
+          "solver_failure": 120
+        },
+        "manual_r": {}
+      },
+      "verification": "saved status and error fields checked"
+    },
+    {
+      "id": "R1-bootstrap",
+      "value": {
+        "mean_difference": 0.033333333333333284,
+        "checkpoint_bootstrap_95": [
+          0.013888888888888862,
+          0.0527777777777777
+        ],
+        "per_seed_differences": {
+          "7101": 0.05555555555555547,
+          "7102": 0.01388888888888884,
+          "7103": 0.04166666666666663,
+          "7104": 0.05555555555555547,
+          "7105": 0.0
+        }
+      },
+      "verification": "saved bootstrap read; bootstrap draws not rerun"
+    },
+    {
+      "id": "R1-residual-replay",
+      "value": {
+        "complete -> complete": 540,
+        "solver_failure -> solver_failure": 252
+      },
+      "verification": "saved replay analysis read; replay not rerun"
+    }
+  ],
+  "limits": [
+    "No new training or rollout",
+    "Not a complete manuscript audit",
+    "No population inference from correlated rollout totals",
+    "Figure hash records current artifact; it is not an independent regeneration"
+  ]
+}

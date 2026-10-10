@@ -1,0 +1,14 @@
+\begin{tabular}{lrrrr}
+\toprule
+Method & Max. energy error & Final state error & Field calls & Wall (s) \\
+\midrule
+Direct, $\Delta t=0.005$ & 0.0309 & 2.47 & 7.07e+05 & 5.13 \\
+Direct, $\Delta t=0.0025$ & 0.00759 & 0.658 & 1.33e+06 & 10.7 \\
+Adaptive, rtol=1e-06 & 0.00246 & 1.07 & 9.83e+05 & 7.5 \\
+Adaptive, rtol=1e-08 & 3.29e-05 & 0.00771 & 3.33e+06 & 27.2 \\
+Manual, $h=0.04$ & 0.019 & 0.0363 & 1.32e+05 & 10.9 \\
+Manual, $h=0.02$ & 0.00474 & 0.00955 & 2.21e+05 & 17.9 \\
+Learned, $h=0.04$ & 0.00544 & 0.366 & 3.34e+05 & 43.8 \\
+Learned, $h=0.02$ & 0.00135 & 0.092 & 5.67e+05 & 75.4 \\
+\bottomrule
+\end{tabular}

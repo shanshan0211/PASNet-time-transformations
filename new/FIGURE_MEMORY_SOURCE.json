@@ -1,0 +1,360 @@
+{
+  "data": "results/expAC10/raw_results.json",
+  "data_sha256": "1889e0a35d7d2730486c5f63b0c49d2fd0dbef70684559356e237f03ac97b9f7",
+  "generator": "new/make_memory_figure.py",
+  "configurations": [
+    {
+      "id": "direct_dt_0.02",
+      "method": "direct_implicit_midpoint",
+      "architecture": null,
+      "registered": 18,
+      "complete": 10,
+      "peak_rss_kib": 509260,
+      "peak_rss_mib": 497.32421875
+    },
+    {
+      "id": "direct_dt_0.01",
+      "method": "direct_implicit_midpoint",
+      "architecture": null,
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 509680,
+      "peak_rss_mib": 497.734375
+    },
+    {
+      "id": "direct_dt_0.005",
+      "method": "direct_implicit_midpoint",
+      "architecture": null,
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 509948,
+      "peak_rss_mib": 497.99609375
+    },
+    {
+      "id": "adaptive_rtol_1e-05",
+      "method": "adaptive_implicit_midpoint",
+      "architecture": null,
+      "registered": 18,
+      "complete": 18,
+      "peak_rss_kib": 509784,
+      "peak_rss_mib": 497.8359375
+    },
+    {
+      "id": "adaptive_rtol_1e-07",
+      "method": "adaptive_implicit_midpoint",
+      "architecture": null,
+      "registered": 18,
+      "complete": 18,
+      "peak_rss_kib": 509928,
+      "peak_rss_mib": 497.9765625
+    },
+    {
+      "id": "manual_r_dtau_0.08",
+      "method": "manual_sundman",
+      "architecture": "manual_r",
+      "registered": 18,
+      "complete": 18,
+      "peak_rss_kib": 525152,
+      "peak_rss_mib": 512.84375
+    },
+    {
+      "id": "manual_r_dtau_0.04",
+      "method": "manual_sundman",
+      "architecture": "manual_r",
+      "registered": 18,
+      "complete": 18,
+      "peak_rss_kib": 524712,
+      "peak_rss_mib": 512.4140625
+    },
+    {
+      "id": "manual_r_dtau_0.02",
+      "method": "manual_sundman",
+      "architecture": "manual_r",
+      "registered": 18,
+      "complete": 18,
+      "peak_rss_kib": 525076,
+      "peak_rss_mib": 512.76953125
+    },
+    {
+      "id": "raw_seed_7101_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526916,
+      "peak_rss_mib": 514.56640625
+    },
+    {
+      "id": "raw_seed_7101_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526768,
+      "peak_rss_mib": 514.421875
+    },
+    {
+      "id": "raw_seed_7101_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527104,
+      "peak_rss_mib": 514.75
+    },
+    {
+      "id": "raw_seed_7102_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526772,
+      "peak_rss_mib": 514.42578125
+    },
+    {
+      "id": "raw_seed_7102_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526716,
+      "peak_rss_mib": 514.37109375
+    },
+    {
+      "id": "raw_seed_7102_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527140,
+      "peak_rss_mib": 514.78515625
+    },
+    {
+      "id": "raw_seed_7103_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526684,
+      "peak_rss_mib": 514.33984375
+    },
+    {
+      "id": "raw_seed_7103_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526716,
+      "peak_rss_mib": 514.37109375
+    },
+    {
+      "id": "raw_seed_7103_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526924,
+      "peak_rss_mib": 514.57421875
+    },
+    {
+      "id": "raw_seed_7104_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527144,
+      "peak_rss_mib": 514.7890625
+    },
+    {
+      "id": "raw_seed_7104_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526860,
+      "peak_rss_mib": 514.51171875
+    },
+    {
+      "id": "raw_seed_7104_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527040,
+      "peak_rss_mib": 514.6875
+    },
+    {
+      "id": "raw_seed_7105_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526824,
+      "peak_rss_mib": 514.4765625
+    },
+    {
+      "id": "raw_seed_7105_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526712,
+      "peak_rss_mib": 514.3671875
+    },
+    {
+      "id": "raw_seed_7105_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526612,
+      "peak_rss_mib": 514.26953125
+    },
+    {
+      "id": "invariant_seed_7101_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526580,
+      "peak_rss_mib": 514.23828125
+    },
+    {
+      "id": "invariant_seed_7101_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526868,
+      "peak_rss_mib": 514.51953125
+    },
+    {
+      "id": "invariant_seed_7101_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527136,
+      "peak_rss_mib": 514.78125
+    },
+    {
+      "id": "invariant_seed_7102_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527188,
+      "peak_rss_mib": 514.83203125
+    },
+    {
+      "id": "invariant_seed_7102_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526988,
+      "peak_rss_mib": 514.63671875
+    },
+    {
+      "id": "invariant_seed_7102_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526956,
+      "peak_rss_mib": 514.60546875
+    },
+    {
+      "id": "invariant_seed_7103_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527108,
+      "peak_rss_mib": 514.75390625
+    },
+    {
+      "id": "invariant_seed_7103_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527020,
+      "peak_rss_mib": 514.66796875
+    },
+    {
+      "id": "invariant_seed_7103_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527124,
+      "peak_rss_mib": 514.76953125
+    },
+    {
+      "id": "invariant_seed_7104_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527036,
+      "peak_rss_mib": 514.68359375
+    },
+    {
+      "id": "invariant_seed_7104_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526744,
+      "peak_rss_mib": 514.3984375
+    },
+    {
+      "id": "invariant_seed_7104_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 13,
+      "peak_rss_kib": 527012,
+      "peak_rss_mib": 514.66015625
+    },
+    {
+      "id": "invariant_seed_7105_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526512,
+      "peak_rss_mib": 514.171875
+    },
+    {
+      "id": "invariant_seed_7105_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527036,
+      "peak_rss_mib": 514.68359375
+    },
+    {
+      "id": "invariant_seed_7105_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527192,
+      "peak_rss_mib": 514.8359375
+    }
+  ],
+  "outputs": [
+    {
+      "path": "new/fig_configuration_memory.pdf",
+      "sha256": "427f2c2cd57f06bd4ca5e917c9864ef7b266a7b3acaf418043ede334d487c0b1"
+    },
+    {
+      "path": "new/fig_configuration_memory.png",
+      "sha256": "235ffde56820be8f4835612bafa446f46c547b69e8177269622b0f7c27bea945"
+    }
+  ],
+  "scope": "All 38 historical configuration processes; RSS is not per-rollout allocation or isolated model memory."
+}

@@ -1,0 +1,820 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "1056 unique recorded rollout keys",
+      "passed": true
+    },
+    {
+      "check": "conditioned outcomes: 716 complete and 340 failed",
+      "passed": true
+    },
+    {
+      "check": "step 10: recomputed summaries agree",
+      "passed": true
+    },
+    {
+      "check": "step 10: negative early-warning contrast directions",
+      "passed": true
+    },
+    {
+      "check": "step 50: recomputed summaries agree",
+      "passed": true
+    },
+    {
+      "check": "step 50: negative early-warning contrast directions",
+      "passed": true
+    },
+    {
+      "check": "step 100: recomputed summaries agree",
+      "passed": true
+    },
+    {
+      "check": "step 100: negative early-warning contrast directions",
+      "passed": true
+    },
+    {
+      "check": "solver symmetry summaries recomputed from records",
+      "passed": true
+    },
+    {
+      "check": "distilled solver completion counts",
+      "passed": true
+    },
+    {
+      "check": "38 unique process-memory measurements",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: direct_dt_0.02",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: direct_dt_0.01",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: direct_dt_0.005",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: adaptive_rtol_1e-05",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: adaptive_rtol_1e-07",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: manual_r_dtau_0.08",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: manual_r_dtau_0.04",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: manual_r_dtau_0.02",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7101_dtau_0.08",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7101_dtau_0.04",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7101_dtau_0.02",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7102_dtau_0.08",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7102_dtau_0.04",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7102_dtau_0.02",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7103_dtau_0.08",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7103_dtau_0.04",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7103_dtau_0.02",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7104_dtau_0.08",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7104_dtau_0.04",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7104_dtau_0.02",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7105_dtau_0.08",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7105_dtau_0.04",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: raw_seed_7105_dtau_0.02",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7101_dtau_0.08",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7101_dtau_0.04",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7101_dtau_0.02",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7102_dtau_0.08",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7102_dtau_0.04",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7102_dtau_0.02",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7103_dtau_0.08",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7103_dtau_0.04",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7103_dtau_0.02",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7104_dtau_0.08",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7104_dtau_0.04",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7104_dtau_0.02",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7105_dtau_0.08",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7105_dtau_0.04",
+      "passed": true
+    },
+    {
+      "check": "memory scope and registered denominator: invariant_seed_7105_dtau_0.02",
+      "passed": true
+    },
+    {
+      "check": "all 28 main equation environments unchanged",
+      "passed": true
+    },
+    {
+      "check": "all four main figure paths unchanged",
+      "passed": true
+    },
+    {
+      "check": "bibliography keys unchanged",
+      "passed": true
+    },
+    {
+      "check": "existing numerical-result math inventory retained",
+      "passed": true
+    },
+    {
+      "check": "existing numerical-result numeral inventory retained",
+      "passed": true
+    },
+    {
+      "check": "all old labels retained in main or supplement",
+      "passed": true
+    },
+    {
+      "check": "notation and all original numerical table bodies retained",
+      "passed": true
+    },
+    {
+      "check": "negative result and medians in main",
+      "passed": true
+    },
+    {
+      "check": "negative result operators and scope in SI",
+      "passed": true
+    },
+    {
+      "check": "corrected state refinement retained",
+      "passed": true
+    },
+    {
+      "check": "historical returned-residual correction retained",
+      "passed": true
+    },
+    {
+      "check": "corrected hundred-period comparison accepted",
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "results/expAC14/raw_results.json": "8b31be1e4e099a5d8adcde0faf8f9e472a80b2abde8ee9247e7dd75443786344",
+    "results/expAC14/analysis.json": "1f6cd98e7441ea80f8f0981e3ebf3e8ac476a16ff391e22bffe23caddb3fa3b0",
+    "results/expAC14/preregistration.json": "737acbbf2c38e50548a18dc382be6668be369652b928b904acf69a7326a2aa91",
+    "results/expAC14/conditioning_association.pdf": "b8f8ea297c91218e220f09fcfe624d41df514625155b42a69d98d6a79e5e3e76",
+    "experiments/analyze_expAC14.py": "779d058a6fac96a3005fc41730f20130f22a4a202851797155b09be6baa1e17b",
+    "src/monitor_conditioning.py": "95bf3bfad557b2b6a60af0899095c6bfcbbd14db29c977cf96eeab73743a3b80",
+    "results/expAC8/raw_results.json": "a93427fee7520414eaf0c0a3d28931c5431aeb4606158f0dfd00cbb8671777da",
+    "results/expAC8/analysis.json": "cd79ec123c6cfe354cf465e2b48a7b2f8a3a2c655b94f915c7a3dd18aac1485b",
+    "fig_monitor_solver_factorial.pdf": "0add164c691b36268dc8c3a8216e882b4240ea8bee5cb6472bc79311dbe29316",
+    "results/expAC10/raw_results.json": "1889e0a35d7d2730486c5f63b0c49d2fd0dbef70684559356e237f03ac97b9f7",
+    "results/expAC0/correctness_smoke.json": "812d47acb65b7c690f4e03bd0360acc713ec920c40443d8b88b3dff099d82083",
+    "results/expAC2/corrected_100period.json": "ea58eb1f96e4d4b5513bc212bd2dd4d8b7e1e1bf1feb46ff89a12748d8a77be3",
+    "results/expAC15/analysis.json": "8633b7a748104099097a4abbedf4a1fd6ecc25005b4e4c88c191e716232f2837"
+  },
+  "conditioning": {
+    "10": {
+      "n_rollouts": 1056,
+      "outcomes": {
+        "completed": {
+          "n": 716,
+          "q": {
+            "median": 0.0073445507310700864,
+            "q25": 0.004948290987191307,
+            "q75": 0.009856468945031276
+          },
+          "sigma_min": {
+            "median": 0.9952111306276377,
+            "q25": 0.9939267526342906,
+            "q75": 0.9967436218969734
+          },
+          "condition_2": {
+            "median": 1.0096278231438216,
+            "q25": 1.0065359471899047,
+            "q75": 1.0122226018632483
+          }
+        },
+        "failed": {
+          "n": 340,
+          "q": {
+            "median": 0.006663465395988591,
+            "q25": 0.004767563863379116,
+            "q75": 0.007733789157297008
+          },
+          "sigma_min": {
+            "median": 0.9959669534318241,
+            "q25": 0.995006929553025,
+            "q75": 0.9970442839286457
+          },
+          "condition_2": {
+            "median": 1.008105203838229,
+            "q25": 1.0059322681948657,
+            "q75": 1.010048182669818
+          }
+        }
+      },
+      "contrasts": {
+        "q": {
+          "estimand": "failed minus completed rollout-level median",
+          "value": -0.0006810853350814952
+        },
+        "sigma_min": {
+          "estimand": "failed minus completed rollout-level median",
+          "value": 0.0007558228041864012
+        },
+        "condition_2": {
+          "estimand": "failed minus completed rollout-level median",
+          "value": -0.0015226193055926096
+        }
+      }
+    },
+    "50": {
+      "n_rollouts": 1056,
+      "outcomes": {
+        "completed": {
+          "n": 716,
+          "q": {
+            "median": 0.0071205820234767035,
+            "q25": 0.004845134049557781,
+            "q75": 0.009694042152248573
+          },
+          "sigma_min": {
+            "median": 0.9954418900449493,
+            "q25": 0.9939493988286352,
+            "q75": 0.9967676738178862
+          },
+          "condition_2": {
+            "median": 1.0091625651118057,
+            "q25": 1.0064918621706407,
+            "q75": 1.0121817728059812
+          }
+        },
+        "failed": {
+          "n": 340,
+          "q": {
+            "median": 0.006290394306117786,
+            "q25": 0.00469883524289619,
+            "q75": 0.007669317252676577
+          },
+          "sigma_min": {
+            "median": 0.9962219524362241,
+            "q25": 0.9951329699840974,
+            "q75": 0.9971083824160684
+          },
+          "condition_2": {
+            "median": 1.0075907177260137,
+            "q25": 1.0058025355801914,
+            "q75": 1.009791552639394
+          }
+        }
+      },
+      "contrasts": {
+        "q": {
+          "estimand": "failed minus completed rollout-level median",
+          "value": -0.0008301877173589175
+        },
+        "sigma_min": {
+          "estimand": "failed minus completed rollout-level median",
+          "value": 0.0007800623912748161
+        },
+        "condition_2": {
+          "estimand": "failed minus completed rollout-level median",
+          "value": -0.001571847385791969
+        }
+      }
+    },
+    "100": {
+      "n_rollouts": 1056,
+      "outcomes": {
+        "completed": {
+          "n": 716,
+          "q": {
+            "median": 0.007298545269954844,
+            "q25": 0.005091037872654016,
+            "q75": 0.011176847435384682
+          },
+          "sigma_min": {
+            "median": 0.9952376085582051,
+            "q25": 0.9930589685670016,
+            "q75": 0.9968357775940107
+          },
+          "condition_2": {
+            "median": 1.0095745087156653,
+            "q25": 1.0063521273988991,
+            "q75": 1.0140023235314983
+          }
+        },
+        "failed": {
+          "n": 340,
+          "q": {
+            "median": 0.006339133390278976,
+            "q25": 0.004724710030675891,
+            "q75": 0.0076526173816363055
+          },
+          "sigma_min": {
+            "median": 0.9961069081406372,
+            "q25": 0.9949520247633827,
+            "q75": 0.9973331929995876
+          },
+          "condition_2": {
+            "median": 1.0078167267326728,
+            "q25": 1.0053507608809547,
+            "q75": 1.0101485469214166
+          }
+        }
+      },
+      "contrasts": {
+        "q": {
+          "estimand": "failed minus completed rollout-level median",
+          "value": -0.000959411879675868
+        },
+        "sigma_min": {
+          "estimand": "failed minus completed rollout-level median",
+          "value": 0.0008692995824320926
+        },
+        "condition_2": {
+          "estimand": "failed minus completed rollout-level median",
+          "value": -0.00175778198299259
+        }
+      }
+    }
+  },
+  "solver_symmetry": {
+    "raw|fixed_point": {
+      "registered_groups": 15,
+      "completion_uniform_groups": 10,
+      "all_four_complete_groups": 5,
+      "maximum_energy_max_min_ratio": 637.4090056368228,
+      "maximum_closure_max_min_ratio": 694.9387283380704
+    },
+    "raw|damped_newton": {
+      "registered_groups": 15,
+      "completion_uniform_groups": 8,
+      "all_four_complete_groups": 5,
+      "maximum_energy_max_min_ratio": 637.4090072258352,
+      "maximum_closure_max_min_ratio": 694.9387287008911
+    },
+    "invariant|fixed_point": {
+      "registered_groups": 15,
+      "completion_uniform_groups": 15,
+      "all_four_complete_groups": 11,
+      "maximum_energy_max_min_ratio": 1.000000000016031,
+      "maximum_closure_max_min_ratio": 1.0000000000390006
+    },
+    "invariant|damped_newton": {
+      "registered_groups": 15,
+      "completion_uniform_groups": 15,
+      "all_four_complete_groups": 11,
+      "maximum_energy_max_min_ratio": 1.000000000011849,
+      "maximum_closure_max_min_ratio": 1.0000000000173896
+    },
+    "manual_r|fixed_point": {
+      "registered_groups": 3,
+      "completion_uniform_groups": 3,
+      "all_four_complete_groups": 3,
+      "maximum_energy_max_min_ratio": 1.0000000000033937,
+      "maximum_closure_max_min_ratio": 1.000000000045794
+    },
+    "manual_r|damped_newton": {
+      "registered_groups": 3,
+      "completion_uniform_groups": 3,
+      "all_four_complete_groups": 3,
+      "maximum_energy_max_min_ratio": 1.0000000000043634,
+      "maximum_closure_max_min_ratio": 1.0000000000365226
+    }
+  },
+  "memory_configurations": [
+    {
+      "id": "direct_dt_0.02",
+      "method": "direct_implicit_midpoint",
+      "architecture": null,
+      "registered": 18,
+      "complete": 10,
+      "peak_rss_kib": 509260,
+      "peak_rss_mib": 497.32421875
+    },
+    {
+      "id": "direct_dt_0.01",
+      "method": "direct_implicit_midpoint",
+      "architecture": null,
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 509680,
+      "peak_rss_mib": 497.734375
+    },
+    {
+      "id": "direct_dt_0.005",
+      "method": "direct_implicit_midpoint",
+      "architecture": null,
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 509948,
+      "peak_rss_mib": 497.99609375
+    },
+    {
+      "id": "adaptive_rtol_1e-05",
+      "method": "adaptive_implicit_midpoint",
+      "architecture": null,
+      "registered": 18,
+      "complete": 18,
+      "peak_rss_kib": 509784,
+      "peak_rss_mib": 497.8359375
+    },
+    {
+      "id": "adaptive_rtol_1e-07",
+      "method": "adaptive_implicit_midpoint",
+      "architecture": null,
+      "registered": 18,
+      "complete": 18,
+      "peak_rss_kib": 509928,
+      "peak_rss_mib": 497.9765625
+    },
+    {
+      "id": "manual_r_dtau_0.08",
+      "method": "manual_sundman",
+      "architecture": "manual_r",
+      "registered": 18,
+      "complete": 18,
+      "peak_rss_kib": 525152,
+      "peak_rss_mib": 512.84375
+    },
+    {
+      "id": "manual_r_dtau_0.04",
+      "method": "manual_sundman",
+      "architecture": "manual_r",
+      "registered": 18,
+      "complete": 18,
+      "peak_rss_kib": 524712,
+      "peak_rss_mib": 512.4140625
+    },
+    {
+      "id": "manual_r_dtau_0.02",
+      "method": "manual_sundman",
+      "architecture": "manual_r",
+      "registered": 18,
+      "complete": 18,
+      "peak_rss_kib": 525076,
+      "peak_rss_mib": 512.76953125
+    },
+    {
+      "id": "raw_seed_7101_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526916,
+      "peak_rss_mib": 514.56640625
+    },
+    {
+      "id": "raw_seed_7101_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526768,
+      "peak_rss_mib": 514.421875
+    },
+    {
+      "id": "raw_seed_7101_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527104,
+      "peak_rss_mib": 514.75
+    },
+    {
+      "id": "raw_seed_7102_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526772,
+      "peak_rss_mib": 514.42578125
+    },
+    {
+      "id": "raw_seed_7102_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526716,
+      "peak_rss_mib": 514.37109375
+    },
+    {
+      "id": "raw_seed_7102_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527140,
+      "peak_rss_mib": 514.78515625
+    },
+    {
+      "id": "raw_seed_7103_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526684,
+      "peak_rss_mib": 514.33984375
+    },
+    {
+      "id": "raw_seed_7103_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526716,
+      "peak_rss_mib": 514.37109375
+    },
+    {
+      "id": "raw_seed_7103_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526924,
+      "peak_rss_mib": 514.57421875
+    },
+    {
+      "id": "raw_seed_7104_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527144,
+      "peak_rss_mib": 514.7890625
+    },
+    {
+      "id": "raw_seed_7104_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526860,
+      "peak_rss_mib": 514.51171875
+    },
+    {
+      "id": "raw_seed_7104_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527040,
+      "peak_rss_mib": 514.6875
+    },
+    {
+      "id": "raw_seed_7105_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526824,
+      "peak_rss_mib": 514.4765625
+    },
+    {
+      "id": "raw_seed_7105_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526712,
+      "peak_rss_mib": 514.3671875
+    },
+    {
+      "id": "raw_seed_7105_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "raw",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526612,
+      "peak_rss_mib": 514.26953125
+    },
+    {
+      "id": "invariant_seed_7101_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526580,
+      "peak_rss_mib": 514.23828125
+    },
+    {
+      "id": "invariant_seed_7101_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526868,
+      "peak_rss_mib": 514.51953125
+    },
+    {
+      "id": "invariant_seed_7101_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527136,
+      "peak_rss_mib": 514.78125
+    },
+    {
+      "id": "invariant_seed_7102_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527188,
+      "peak_rss_mib": 514.83203125
+    },
+    {
+      "id": "invariant_seed_7102_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526988,
+      "peak_rss_mib": 514.63671875
+    },
+    {
+      "id": "invariant_seed_7102_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526956,
+      "peak_rss_mib": 514.60546875
+    },
+    {
+      "id": "invariant_seed_7103_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527108,
+      "peak_rss_mib": 514.75390625
+    },
+    {
+      "id": "invariant_seed_7103_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527020,
+      "peak_rss_mib": 514.66796875
+    },
+    {
+      "id": "invariant_seed_7103_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527124,
+      "peak_rss_mib": 514.76953125
+    },
+    {
+      "id": "invariant_seed_7104_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527036,
+      "peak_rss_mib": 514.68359375
+    },
+    {
+      "id": "invariant_seed_7104_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526744,
+      "peak_rss_mib": 514.3984375
+    },
+    {
+      "id": "invariant_seed_7104_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 13,
+      "peak_rss_kib": 527012,
+      "peak_rss_mib": 514.66015625
+    },
+    {
+      "id": "invariant_seed_7105_dtau_0.08",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 526512,
+      "peak_rss_mib": 514.171875
+    },
+    {
+      "id": "invariant_seed_7105_dtau_0.04",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527036,
+      "peak_rss_mib": 514.68359375
+    },
+    {
+      "id": "invariant_seed_7105_dtau_0.02",
+      "method": "learned_monitor",
+      "architecture": "invariant",
+      "registered": 18,
+      "complete": 12,
+      "peak_rss_kib": 527192,
+      "peak_rss_mib": 514.8359375
+    }
+  ],
+  "scope": "Saved-record recalculation and manuscript preservation; no new experiments or independent external review."
+}

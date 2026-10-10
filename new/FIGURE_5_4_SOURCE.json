@@ -1,0 +1,67 @@
+{
+  "generator": "new/make_section_5_4_figure.py",
+  "data": "results/expAC10/raw_results.json",
+  "data_sha256": "1889e0a35d7d2730486c5f63b0c49d2fd0dbef70684559356e237f03ac97b9f7",
+  "configuration_ids": [
+    "direct_dt_0.02",
+    "direct_dt_0.01",
+    "direct_dt_0.005",
+    "adaptive_rtol_1e-05",
+    "adaptive_rtol_1e-07",
+    "manual_r_dtau_0.08",
+    "manual_r_dtau_0.04",
+    "manual_r_dtau_0.02",
+    "raw_seed_7101_dtau_0.08",
+    "raw_seed_7101_dtau_0.04",
+    "raw_seed_7101_dtau_0.02",
+    "raw_seed_7102_dtau_0.08",
+    "raw_seed_7102_dtau_0.04",
+    "raw_seed_7102_dtau_0.02",
+    "raw_seed_7103_dtau_0.08",
+    "raw_seed_7103_dtau_0.04",
+    "raw_seed_7103_dtau_0.02",
+    "raw_seed_7104_dtau_0.08",
+    "raw_seed_7104_dtau_0.04",
+    "raw_seed_7104_dtau_0.02",
+    "raw_seed_7105_dtau_0.08",
+    "raw_seed_7105_dtau_0.04",
+    "raw_seed_7105_dtau_0.02",
+    "invariant_seed_7101_dtau_0.08",
+    "invariant_seed_7101_dtau_0.04",
+    "invariant_seed_7101_dtau_0.02",
+    "invariant_seed_7102_dtau_0.08",
+    "invariant_seed_7102_dtau_0.04",
+    "invariant_seed_7102_dtau_0.02",
+    "invariant_seed_7103_dtau_0.08",
+    "invariant_seed_7103_dtau_0.04",
+    "invariant_seed_7103_dtau_0.02",
+    "invariant_seed_7104_dtau_0.08",
+    "invariant_seed_7104_dtau_0.04",
+    "invariant_seed_7104_dtau_0.02",
+    "invariant_seed_7105_dtau_0.08",
+    "invariant_seed_7105_dtau_0.04",
+    "invariant_seed_7105_dtau_0.02"
+  ],
+  "fronts": {
+    "energy_vs_evaluations": [
+      "manual_r_dtau_0.08",
+      "manual_r_dtau_0.04",
+      "manual_r_dtau_0.02",
+      "adaptive_rtol_1e-05",
+      "adaptive_rtol_1e-07"
+    ],
+    "closure_vs_evaluations": [
+      "manual_r_dtau_0.08",
+      "manual_r_dtau_0.04",
+      "manual_r_dtau_0.02",
+      "adaptive_rtol_1e-07"
+    ],
+    "closure_vs_wall": [
+      "adaptive_rtol_1e-05",
+      "adaptive_rtol_1e-07"
+    ]
+  },
+  "scope": "Original counts and completed-run geometric means; incomplete groups are excluded from fronts.",
+  "raw_marker_correction": "Visible stroked x markers for all 15 raw configurations.",
+  "tex_sha256": "a0b2ccd95b6319d87a8e28ad860226f0b983ae595d802f0a22f336cc46f338c2"
+}

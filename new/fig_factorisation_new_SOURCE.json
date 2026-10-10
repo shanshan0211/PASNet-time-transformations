@@ -1,0 +1,159 @@
+{
+  "source_sha256": {
+    "results/expAC20/preregistration.json": "d5952563b99cd5cc2a7db675a2c63d8e815b1720fdb1a2277f7bfc876ce1c49c",
+    "results/expAC20/analysis.json": "c6ab8833ff950f1b3fd31e40a1a3cee0c28db77b89d48f6fad91c3f55c5b5ff4",
+    "results/expAC9/raw_results.json": "bdb87fc09c6d87e07cadbdf54960307ed3c73da66bdb1497de88d48e4d376a9e",
+    "results/expAC9/preregistration.json": "260b55823caba050aba19eacd53f0ea1ba084486daee88fafc4c76cae4dc1265",
+    "results/expAC9/training.json": "a043fcc7a72c8cc4ae657a4d998508f48398635acd0304f8c05c04309dc95994",
+    "results/expAC20/parts/invariant_e099_seed7101/training.json": "61571dcddf50e98429e4e06531fe124a11e0903d1e9fa4b225755b55a9025177",
+    "results/expAC20/parts/invariant_e099_seed7101/diagnostic.json": "66e5b7dbd8a8ebc4c9dfc4bf41578dc799c63c59a6e412ecb3053891ae125123",
+    "results/expAC20/parts/invariant_e099_seed7101/rollouts.json": "85dc6892c99ef648025ee7d1a30becea6c97e663651317bce25b68ed8cdbf363",
+    "results/expAC20/parts/invariant_e099_seed7102/training.json": "a6a16be666f4075d6ea2e0c3c92d333cbbe89d474f78731a70bf11b39343559e",
+    "results/expAC20/parts/invariant_e099_seed7102/diagnostic.json": "ba80339d2c5018a1853ddeb35212108568a6c362600fff5926794d58abd2df30",
+    "results/expAC20/parts/invariant_e099_seed7102/rollouts.json": "4d4c39198678a3b18ff889995b013ea42044f375a24879bb42d94de9d0e4985a",
+    "results/expAC20/parts/invariant_e099_seed7103/training.json": "c30b8bd4168afd7b16ac558b0c8d97eef3650d78d1bddbf92f2033c652c242e9",
+    "results/expAC20/parts/invariant_e099_seed7103/diagnostic.json": "e82b23553c5effdef72e20ef12ee415fac17cd648b47e3bf0e6ac1f8f74383da",
+    "results/expAC20/parts/invariant_e099_seed7103/rollouts.json": "bd0d5385fceb8dc9e32c3ea50e8ec512140f028f88b091b4e74bd3ba0f264f09",
+    "results/expAC20/parts/invariant_e099_seed7104/training.json": "475a59a339fe51440fece8fb5378e76bcf683a67c5ab877528f6ad5d5a489511",
+    "results/expAC20/parts/invariant_e099_seed7104/diagnostic.json": "e78410b2db01129d47140f5a32be42c38032c4c25cb8f8ce250214c59166d013",
+    "results/expAC20/parts/invariant_e099_seed7104/rollouts.json": "3c0421ec9c516f01d42bb99a607172b8ee4703c262f1c1b1f87eadd228a92642",
+    "results/expAC20/parts/invariant_e099_seed7105/training.json": "77733ad9804d7a152021b59f5165d8d6879399bd7e51997c62e182823376e8b4",
+    "results/expAC20/parts/invariant_e099_seed7105/diagnostic.json": "29fd1a86f99650a9dd5e407ba5485c5fea4d84a7131f773137a6df5a004d9521",
+    "results/expAC20/parts/invariant_e099_seed7105/rollouts.json": "355741aac27a386f861fb98f81fa876fdfd2a54b6a2aa104b58c6dc9c033a4e8",
+    "results/expAC20/parts/sundman_e09_seed7101/training.json": "70f7817e7ca4d880e2538ac1922170a429996c5cab4446dd1a64db119a56ea3e",
+    "results/expAC20/parts/sundman_e09_seed7101/diagnostic.json": "a3f29793a7c0363205ce391bc8cb0ad9fa3c3606cfe8d695679ca32b7fe055fb",
+    "results/expAC20/parts/sundman_e09_seed7101/rollouts.json": "96922fe10cca793259b47c72e67b14c6bb40208c5490e21f3c08f770cba631e5",
+    "results/expAC20/parts/sundman_e09_seed7102/training.json": "3731c4b07b506aa3a7e78b5c16f71d95e57bbde8d7cf0c1cb0b9be0adf1d4fe9",
+    "results/expAC20/parts/sundman_e09_seed7102/diagnostic.json": "53ba09bc57e2c3f4fd047abb57602e189c3a89d903edcfd72bb6db620a7562ba",
+    "results/expAC20/parts/sundman_e09_seed7102/rollouts.json": "b6b4636811ffa21c8af80c6f15f7a1595c6dd8d27333a65abb5f78609a37c8e1",
+    "results/expAC20/parts/sundman_e09_seed7103/training.json": "f4b5a1fd77bdcc74d01127e686df7c66871207b569f8829fc1e4dfd6132f3bcf",
+    "results/expAC20/parts/sundman_e09_seed7103/diagnostic.json": "dce73b82fe75e4a2ca00bcdff405903b8048586759280e79cb7e0a57dc34cd7a",
+    "results/expAC20/parts/sundman_e09_seed7103/rollouts.json": "333988c7828280b183d5f216b14c16e2a2aded327a87ec0a8217cd9bf3642c0b",
+    "results/expAC20/parts/sundman_e09_seed7104/training.json": "3867b097ce4d9ca61cebb4119e74f834463d98b2198f0036aa73fbdf77fd916d",
+    "results/expAC20/parts/sundman_e09_seed7104/diagnostic.json": "6cb3eda0963050bd483827b6b54c4aec68f8f2bb3a22af9df202b02bf1cf1fb5",
+    "results/expAC20/parts/sundman_e09_seed7104/rollouts.json": "21639bc4dbfeaa58febaafbe79bfe4c008ca76574baf51de44096dd96cab516f",
+    "results/expAC20/parts/sundman_e09_seed7105/training.json": "4b5512fd785a6eed04659dd01a86dd6cb421b9ea9fd73e508f3203b0f4fb775a",
+    "results/expAC20/parts/sundman_e09_seed7105/diagnostic.json": "9aa9982123071982f298bd477f79a0f887f556f647d548736282fed13f48740d",
+    "results/expAC20/parts/sundman_e09_seed7105/rollouts.json": "997018e6055dd91824be50ef2e50a245d0fcf46004ee172607f2bf55e6bb0a71",
+    "results/expAC20/parts/sundman_e099_seed7101/training.json": "50a2efa6098c2ae840b192e3cf586a2f1797322bfc0764e0ecaf6d526f11e375",
+    "results/expAC20/parts/sundman_e099_seed7101/diagnostic.json": "6bdd7f565548b09ed3aeb0f8a71d36ae708509c22eb320148b4eff051f2b6bfc",
+    "results/expAC20/parts/sundman_e099_seed7101/rollouts.json": "2f901e7f4b361629af12084ae580fbc8e68967326e772ddf99b9433807064c10",
+    "results/expAC20/parts/sundman_e099_seed7102/training.json": "c7e9669f384cb7c7d483503ca7be773ca45613d1432ef6827976ff25ec21f41f",
+    "results/expAC20/parts/sundman_e099_seed7102/diagnostic.json": "93d3edcbb590034ea8d7c518da1ba6ef5a204ec516bee84acf37ef40698753ed",
+    "results/expAC20/parts/sundman_e099_seed7102/rollouts.json": "8f006046cc336ef1b54aebeabd6ab119e6a0fc3b09839b9d1c5a88cc93d56bb0",
+    "results/expAC20/parts/sundman_e099_seed7103/training.json": "9f9bfccf061cf5f65584ec6c459fbf8300919cc524c11ab261d1e4d83e3dd981",
+    "results/expAC20/parts/sundman_e099_seed7103/diagnostic.json": "be877cf444eb12c809f417bbb9b96f84f48e788eac4dcf703056c55875b2b228",
+    "results/expAC20/parts/sundman_e099_seed7103/rollouts.json": "e1e65d4d74a2871cccbb991c736257f34b7975ec72889de912a555a802cff43e",
+    "results/expAC20/parts/sundman_e099_seed7104/training.json": "78db01162aa42cb4ee53a27f9d1289ec601c5a8d8d1536bc8ec6ac887bcaf92b",
+    "results/expAC20/parts/sundman_e099_seed7104/diagnostic.json": "e4296ab57661cb6ca9aa3086b0750daba7f40334b9fbf87f5e05a447d5940037",
+    "results/expAC20/parts/sundman_e099_seed7104/rollouts.json": "47876b500ff27f132c32964627e7308efa38939dc3085a6795e19818ef094d0c",
+    "results/expAC20/parts/sundman_e099_seed7105/training.json": "f54806f1a1d5a49a4f30651fab39f7e1587cdf5424b5164518aeb46833ef6a65",
+    "results/expAC20/parts/sundman_e099_seed7105/diagnostic.json": "bc1b3777d8cde8a7c542c47f09e76b356174ad7f914421a099c50dd763ff5dec",
+    "results/expAC20/parts/sundman_e099_seed7105/rollouts.json": "bb849af9aaad3beedb4dd842e5da41e49ad9a7ea898ac425aead740d8d44f157",
+    "results/expAC20/monitor_invariant_e099_seed7101.pt": "d4d7346695c3b3d387a3481e9584cf0fef2c4556b94140d274c2532ebec2ab14",
+    "results/expAC20/monitor_invariant_e099_seed7102.pt": "2c042a261e77592497acc7705e9fe4f104fec0ed522bf1f96a0a0ac7674edfa0",
+    "results/expAC20/monitor_invariant_e099_seed7103.pt": "75f8eb78ccef70cc5b1c9b6d44b539b2a3108a9f5ac0c8a98129b2117f31c21d",
+    "results/expAC20/monitor_invariant_e099_seed7104.pt": "c797c6f8be58a3ae123e4450cd08175fa4a8c2ac86e35c33f466784180ee5e65",
+    "results/expAC20/monitor_invariant_e099_seed7105.pt": "203fe7463c796ad86002940d8a8df00cd457c010806417817b7b2465676fc557",
+    "results/expAC20/monitor_sundman_e09_seed7101.pt": "b5c6909c1db92e05966aef8ffc5aa3baa8e0e28838c69e294fe977b9d585754b",
+    "results/expAC20/monitor_sundman_e09_seed7102.pt": "e18df0ca7bfb9c2a168bf597ac576658e89a4c03e51145ce5e7d8df79b12f66b",
+    "results/expAC20/monitor_sundman_e09_seed7103.pt": "b8ac3631b997a69ecebd6fefeac20c9fe6498e4cfe8f860363f6dbcd5cc6d504",
+    "results/expAC20/monitor_sundman_e09_seed7104.pt": "94415f80b57e3704c13a265addb818809f8a07a2033d4133466d70ffbf293a7d",
+    "results/expAC20/monitor_sundman_e09_seed7105.pt": "8b0d2986093772e6882a758b75936633ad7eb40cdaf3b3734dec6040e13fa50b",
+    "results/expAC20/monitor_sundman_e099_seed7101.pt": "74d57a92a6233b32307fe91229d31895a77ee4840318f7180e1264b34ca68f26",
+    "results/expAC20/monitor_sundman_e099_seed7102.pt": "00f59d073885e89d3102acde880007811db0df34f4bbae02a76a14a038997938",
+    "results/expAC20/monitor_sundman_e099_seed7103.pt": "aeea2e05b6af580e05d122e59225951ed08410659a4c3818c752a3cfe3cd1b76",
+    "results/expAC20/monitor_sundman_e099_seed7104.pt": "e1c0e9d419aea513538e7bdf2eeb2d5506f371e2201c733f01d8f9db33b07419",
+    "results/expAC20/monitor_sundman_e099_seed7105.pt": "a69b77e6932a381b6a26a63602c4eb155a4f22cf634f8418a58c615c5a794fb2"
+  },
+  "completion": {
+    "raw|0.7": {
+      "complete": 120,
+      "n": 120
+    },
+    "invariant|0.7": {
+      "complete": 120,
+      "n": 120
+    },
+    "invariant_e099|0.7": {
+      "complete": 120,
+      "n": 120
+    },
+    "sundman_e09|0.7": {
+      "complete": 120,
+      "n": 120
+    },
+    "sundman_e099|0.7": {
+      "complete": 120,
+      "n": 120
+    },
+    "manual_r|0.7": {
+      "complete": 24,
+      "n": 24
+    },
+    "raw|0.9": {
+      "complete": 108,
+      "n": 120
+    },
+    "invariant|0.9": {
+      "complete": 120,
+      "n": 120
+    },
+    "invariant_e099|0.9": {
+      "complete": 120,
+      "n": 120
+    },
+    "sundman_e09|0.9": {
+      "complete": 120,
+      "n": 120
+    },
+    "sundman_e099|0.9": {
+      "complete": 120,
+      "n": 120
+    },
+    "manual_r|0.9": {
+      "complete": 24,
+      "n": 24
+    },
+    "raw|0.99": {
+      "complete": 0,
+      "n": 120
+    },
+    "invariant|0.99": {
+      "complete": 0,
+      "n": 120
+    },
+    "invariant_e099|0.99": {
+      "complete": 0,
+      "n": 120
+    },
+    "sundman_e09|0.99": {
+      "complete": 120,
+      "n": 120
+    },
+    "sundman_e099|0.99": {
+      "complete": 120,
+      "n": 120
+    },
+    "manual_r|0.99": {
+      "complete": 24,
+      "n": 24
+    }
+  },
+  "diagnostic_families": 540,
+  "family_outcomes": {
+    "complete": 480,
+    "failed": 60
+  },
+  "accuracy_points": {
+    "invariant_e099": 0,
+    "sundman_e09": 120,
+    "sundman_e099": 120,
+    "manual_r": 24
+  },
+  "scope": "Complete recipes with differing initialization/training; common h=.04, not matched cost.",
+  "diagnostic_unit": "One point per family, not duplicate points for the two rollout phases.",
+  "manual_high_e_scale": "Exactly g/r=1; one reference marker, not a learned ensemble.",
+  "generator": "new/make_deployment_figures.py",
+  "tex_sha256": "5bc61ba008c0c4c78e6b3311667763e623ac9a4208c39494ff035e82126cf236"
+}

@@ -1,0 +1,28 @@
+{
+  "source_sha256": {
+    "results/expAC19/raw_results.json": "734d284e8eaa71c4283f79010683e2c6015b752a9b59b21071377e27ec83dae0",
+    "results/expAC19/intervention.json": "f8e6ca3d2f413dddbf9cf4402c95a205473d0b64aed6d6060ee559178d99f292",
+    "results/expAC9/raw_results.json": "bdb87fc09c6d87e07cadbdf54960307ed3c73da66bdb1497de88d48e4d376a9e",
+    "results/expAC19/preregistration.json": "737b049fe77161460b0ab64652fb67ab828f3b96b19ad14ef3f4b53da9f4e264",
+    "results/expAC8/raw_results.json": "a93427fee7520414eaf0c0a3d28931c5431aeb4606158f0dfd00cbb8671777da",
+    "results/expAC8/analysis.json": "cd79ec123c6cfe354cf465e2b48a7b2f8a3a2c655b94f915c7a3dd18aac1485b"
+  },
+  "profiles": {
+    "raw": 5,
+    "invariant": 5,
+    "manual_r": 1
+  },
+  "family_outcomes": {
+    "complete": 269,
+    "failed": 125,
+    "mixed": 2
+  },
+  "reference_families": 396,
+  "rollout_labels": 792,
+  "failure_projections": 252,
+  "scope": "Panels a-c use saved records; d is a normalized analytic scale calculation, not a spectral-radius fit.",
+  "selection": "Profiles: a=1, e=.99, orientation=0, forward momentum; both radial legs retained.",
+  "diagnostic_unit": "One point per checkpoint-orbit family; paired initial-anomaly outcomes use separate mixed markers.",
+  "generator": "new/make_deployment_figures.py",
+  "tex_sha256": "bb6ce517529a5c9cf021aecd26a1a44c3669679483ee7e57dda2e65177530fbb"
+}

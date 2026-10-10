@@ -1,0 +1,288 @@
+{
+  "scope": "Audit saved subsection 5.2 numbers; do not rerun training or dynamics.\n\nOnly standard-library arithmetic, joins, source hashes and analytic radius\nprojection are checked. Saved monitor values/Hessians are not recomputed.\nThis is a partial claim trace, not a full manuscript or originality audit.\n",
+  "source_sha256": {
+    "results/expAC19/raw_results.json": "734d284e8eaa71c4283f79010683e2c6015b752a9b59b21071377e27ec83dae0",
+    "results/expAC19/intervention.json": "f8e6ca3d2f413dddbf9cf4402c95a205473d0b64aed6d6060ee559178d99f292",
+    "results/expAC9/raw_results.json": "bdb87fc09c6d87e07cadbdf54960307ed3c73da66bdb1497de88d48e4d376a9e",
+    "results/expAC19/preregistration.json": "737b049fe77161460b0ab64652fb67ab828f3b96b19ad14ef3f4b53da9f4e264",
+    "results/expAC8/raw_results.json": "a93427fee7520414eaf0c0a3d28931c5431aeb4606158f0dfd00cbb8671777da",
+    "results/expAC8/analysis.json": "cd79ec123c6cfe354cf465e2b48a7b2f8a3a2c655b94f915c7a3dd18aac1485b",
+    "experiments/analyze_expAC19.py": "594340200f6580610fc983adc6245f78151f964b8a71d474c10bd5d074c859cd",
+    "new/paper_g2_jcp_new.tex": "b7d5b73eb464c60c16f68daa3d492357b53dc1b9c24efdd42d9ef4f935ae88a7",
+    "new/audit_section_5_2.py": "e0829fb159a464f442b08d4f89070cb9e90af9e7a8a16fb020ac32b9fa21d719",
+    "results/returned_endpoint_review/verified/analysis.json": "10be12acc4b35d913195dfb72bbbf05cf0b8596e6c04409032fb16851c47eb07",
+    "results/returned_endpoint_review/paired_analysis.json": "3bae3c0c0ff35a3b58e7787bae54aedf56e61937de6702eb87065b069115eaca"
+  },
+  "registered_source_checks": [
+    {
+      "path": "results/expAC9/preregistration.json",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "results/expAC9/raw_results.json",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "results/expAC9/training.json",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "experiments/expAC9_end_to_end_monitor_generalisation.py",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "experiments/expAC19_periapsis_contraction_diagnostic.py",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "experiments/analyze_expAC19.py",
+      "matches_frozen_hash": false
+    },
+    {
+      "path": "src/systems.py",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "src/models/pasnet.py",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "theory/monitor_solver_conditioning.md",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "results/expAC9/monitor_raw_seed7101.pt",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "results/expAC9/monitor_raw_seed7102.pt",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "results/expAC9/monitor_raw_seed7103.pt",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "results/expAC9/monitor_raw_seed7104.pt",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "results/expAC9/monitor_raw_seed7105.pt",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "results/expAC9/monitor_invariant_seed7101.pt",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "results/expAC9/monitor_invariant_seed7102.pt",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "results/expAC9/monitor_invariant_seed7103.pt",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "results/expAC9/monitor_invariant_seed7104.pt",
+      "matches_frozen_hash": true
+    },
+    {
+      "path": "results/expAC9/monitor_invariant_seed7105.pt",
+      "matches_frozen_hash": true
+    }
+  ],
+  "reference_orbits": 396,
+  "high_e_diagnostics": {
+    "raw": {
+      "monitor_at_periapsis": {
+        "n": 60,
+        "minimum": 0.04825604924708804,
+        "median": 0.1813386790172868,
+        "maximum": 0.7141850041431886
+      },
+      "monitor_over_radius_at_periapsis": {
+        "n": 60,
+        "minimum": 4.133979331986295,
+        "median": 18.142933838230533,
+        "maximum": 95.22466721909173
+      },
+      "spectral_radius_maximum": {
+        "n": 60,
+        "minimum": 1.4255047130030025,
+        "median": 6.120765131881964,
+        "maximum": 31.711613766008792
+      }
+    },
+    "invariant": {
+      "monitor_at_periapsis": {
+        "n": 60,
+        "minimum": 0.07881269245689249,
+        "median": 0.08643925583833346,
+        "maximum": 0.1110191943764421
+      },
+      "monitor_over_radius_at_periapsis": {
+        "n": 60,
+        "minimum": 6.3987169729415125,
+        "median": 8.866568452399717,
+        "maximum": 14.802559250192267
+      },
+      "spectral_radius_maximum": {
+        "n": 60,
+        "minimum": 1.7035452375092022,
+        "median": 3.3134223503253373,
+        "maximum": 7.54311215332278
+      }
+    },
+    "manual_r": {
+      "monitor_at_periapsis": {
+        "n": 12,
+        "minimum": 0.007500000000000007,
+        "median": 0.010000000000000009,
+        "maximum": 0.012500000000000011
+      },
+      "monitor_over_radius_at_periapsis": {
+        "n": 12,
+        "minimum": 1.0,
+        "median": 1.0,
+        "maximum": 1.0
+      },
+      "spectral_radius_maximum": {
+        "n": 12,
+        "minimum": 0.25277107142769767,
+        "median": 0.282606649228894,
+        "maximum": 0.32632605001416004
+      }
+    }
+  },
+  "manual_all_orbit_rho_max": 0.32632605001416004,
+  "confusion": {
+    "TN": 540,
+    "FN": 12,
+    "TP": 240,
+    "FP": 0
+  },
+  "classification_accuracy": 0.9848484848484849,
+  "failure_sensitivity": 0.9523809523809523,
+  "reference_failure_locations": {
+    "n": 252,
+    "within_2x": 60,
+    "within_5x": 231,
+    "below_training_radius": 250,
+    "reference_radius_over_periapsis": {
+      "n": 252,
+      "minimum": 1.0031315870964344,
+      "median": 2.7045564388810317,
+      "maximum": 8.19573921513194
+    }
+  },
+  "intervention": {
+    "statuses": {
+      "complete": 151,
+      "solver_failure": 101
+    },
+    "strata": {
+      "raw|0.9": {
+        "n": 12,
+        "complete": 12
+      },
+      "raw|0.99": {
+        "n": 120,
+        "complete": 85
+      },
+      "invariant|0.99": {
+        "n": 120,
+        "complete": 54
+      }
+    },
+    "step_factor": {
+      "n": 252,
+      "minimum": 0.01576709415324497,
+      "median": 0.13633924500871605,
+      "maximum": 0.9285563991068633
+    },
+    "completed_n": 151,
+    "completed_field_ratio_geom": 14.471824571766017,
+    "completed_closure_ratio_geom": 414.0778593771594,
+    "historical_update_stop_scope": true
+  },
+  "distilled_solver_transitions": {
+    "raw": {
+      "both_complete": 30,
+      "both_fail": 26,
+      "newton_only": 4
+    },
+    "invariant": {
+      "both_complete": 40,
+      "fixed_point_only": 4,
+      "both_fail": 12,
+      "newton_only": 4
+    },
+    "manual_r": {
+      "both_complete": 12
+    }
+  },
+  "distilled_solver_counts": {
+    "raw": {
+      "fixed_point": {
+        "n": 60,
+        "complete": 30
+      },
+      "damped_newton": {
+        "n": 60,
+        "complete": 34
+      }
+    },
+    "invariant": {
+      "fixed_point": {
+        "n": 60,
+        "complete": 44
+      },
+      "damped_newton": {
+        "n": 60,
+        "complete": 44
+      }
+    },
+    "manual_r": {
+      "fixed_point": {
+        "n": 12,
+        "complete": 12
+      },
+      "damped_newton": {
+        "n": 12,
+        "complete": 12
+      }
+    }
+  },
+  "limits": [
+    "No new dynamics, training, Hessian or checkpoint inference.",
+    "Reference failure radius is not an actual failed-iterate radius.",
+    "Known-label retrospective classification; correlated evaluations.",
+    "Work ratios compare field calls, not identical arithmetic or pipeline costs.",
+    "Cross-environment wall ratios excluded; accuracy/cost ratios condition on completion.",
+    "Saved analyzer was extended after sealing; current hash separately recorded."
+  ],
+  "verified_intervention": {
+    "complete": 150,
+    "failed": 102,
+    "strata": {
+      "raw_e0.9": {
+        "n": 12,
+        "complete": 12,
+        "failed": 0
+      },
+      "raw_e0.99": {
+        "n": 120,
+        "complete": 84,
+        "failed": 36
+      },
+      "invariant_e0.99": {
+        "n": 120,
+        "complete": 54,
+        "failed": 66
+      }
+    },
+    "completed_closure_ratio_geom": 407.66852637306044,
+    "completed_field_ratio_with_verification_geom": 17.719989136123722,
+    "scope": "current main-text counts; fresh replay acceptance; historical manual cost denominator"
+  }
+}
